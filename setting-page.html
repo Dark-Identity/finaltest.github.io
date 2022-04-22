@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="allcss/setting-page.css" />
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<script src="alljs/setting-page.js" defer></script>
+    <title>settings page</title>
+
+  </head>
+
+  <body>
+      <div class="container">
+         <div class="leftbox">
+
+            <div class = "nav">
+
+               <a class="personal-info"><ion-icon name="person-circle-outline"></ion-icon></a>
+               <a class="personal-info"><ion-icon name="wallet-outline"></ion-icon></a>
+               <a class="personal-info"><ion-icon name="construct-outline"></ion-icon></a>
+               <a class="personal-info"><ion-icon name="cash-outline"></ion-icon></a>
+
+            </div>
+
+        </div>
+
+           <div class="rightbox">
+
+              <div class="profile tabshow">
+                 <h1>Personal Information</h1>
+
+                 <h2>Full Name</h2>
+                 <input type="text"value="Vishal kumar"></input>
+
+                 <h2>DOB</h2>
+                 <input type="text"value="xx/yy/mm"></input>
+
+                 <h2>Gender</h2>
+                 <select class="Gender-select">
+                    <option value="Male">Male</option>
+                       <option value="Female">Female</option>
+                 </select>
+
+                <h2>Mobile No.</h2>
+                <input type="text"value="9199999999"></input>
+
+                 <button type="button" class = "profile_btn" name="button">update</button>
+              </div>
+
+              <div class="payment tabshow">
+                 <h1>Payment info</h1>
+
+                 <h2>Bank</h2>
+                 <input type="text"value="None"></input>
+
+                 <h2>UPI</h2>
+                 <input type="text"value="xyz@mno"></input>
+
+                 <h2>Withdrawal code</h2>
+                   <input type="password" value="invalid">
+
+                 <button type="button" name="button">update</button>
+              </div>
+
+              <div class="aboutus tabshow">
+
+                   <button type="button" name="button">contactus</button>
+              </div>
+
+              <div class="withdraw tabshow">
+                   <h2>Amount</h2>
+                   <input type="text" value="0.00">
+                   <h3>You'r withdraw amount should be greater than 500</h3>
+               </div>
+
+           </div>
+
+      </div>
+
+  </body>
+</html>

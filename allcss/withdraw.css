@@ -1,0 +1,138 @@
+*{
+  padding: 0;
+  margin : 0;
+  box-sizing: border-box;
+}
+
+main{
+  width: 100%;
+  height: 100vh;
+  /* border: 3px solid black; */
+  background: url("../allphotos/football.jpg");
+  background-repeat-y: no-repeat;
+  background-size: auto 100vh;
+  overflow-x: hidden;
+}
+
+.logo-section{
+  background: hsla(185, 44%, 65%, 0.7);
+  box-shadow: 0 4px 20px hsla(185, 44%, 65%, 0.7);
+  color: black;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+  display: flex;
+  height: 10%;
+  width: 100%;
+  font-size: 1.3rem;
+}
+.logo{
+  border: 1px solid black;
+  height: 100%;
+  width : 5em;
+}
+.bottom{
+   position : absolute;
+   bottom : 0;
+   width: 100%;
+   height: auto;
+ }
+ .bottom a{
+   text-decoration: none;
+   color : white;
+ }
+.inner{
+  height: 100%;
+  width : 100%;
+  border: 1px solid skyblue;
+  background: black;
+  opacity: 50%;
+  color: white;
+  border-top-right-radius: 30%;
+  border-top-left-radius: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.similar-all{
+  display: grid;
+  place-items: center;
+  height: 7vh;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 800px){
+  .logo-section{
+    height: 7%;
+  }
+}
+
+.middle{
+  display: flex;
+  justify-content: center;
+  height: calc(100vh - 7vh);
+  width: 100%;
+}
+
+.card{
+  line-height: 1.4rem;
+  padding: 20px 10%;
+  margin-top : 10%;
+  /* padding: 20px 0; */
+  /* border: 1px solid black; */
+  box-shadow: 1px 3px 10px ;
+  height : 70vh;
+  width: 90%;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+}
+.profit{
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.profit .profit-thing{
+  display: flex;
+  width : auto;
+  justify-content: space-between;
+}
+.profit-thing span{
+  padding: 0 10px;
+}
+.withdr{
+  line-height: 3rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.withdr p{
+  font-size: 1.2rem;
+  /* color : #F6D912; */
+  color : white;
+}
+.withdr .last{
+  color : white;
+  margin-top: 3rem;
+  line-height: 1.2rem;
+}
+ .withdr button{
+  margin-top: 20%;
+  padding : 10px;
+  background: #FFFFFF;
+  box-shadow: 1px 2px 10px;
+  border : none;
+  border-radius: 3px;
+}
+.withdr input{
+  box-shadow: 1px 2px 10px;
+  margin-top: 15%;
+  width: 40%;
+  border: none;
+  border-radius : 10px;
+  background: #EFFBFF;
+  text-align: center;
+  padding: 3% 0;
+}

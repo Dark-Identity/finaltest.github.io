@@ -1,0 +1,138 @@
+*{
+  padding : 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+main{
+  background : linear-gradient(#000000a2, #498f9abd);
+}
+
+main .upper{
+  min-width: 100vw;
+  height: 7vh;
+  color : black;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.dext-upper .similar{
+  height: 100%;
+  width: 65px;
+}
+.money span{
+    color: white;
+    text-decoration : underline;
+    line-height: 1.2rem;
+  }
+
+
+ion-icon{
+  font-size: 1.7rem;
+}
+#money{
+  display: flex;
+  align-items: center;
+  padding-right: 5px;
+}
+
+.money{
+  display: flex;
+  padding: 0.5rem;
+}
+
+.dext-upper{
+  /* border : 1px solid black; */
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+  width: 300px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+
+.bottom{
+   position : absolute;
+   bottom : 0;
+   width: 100%;
+   height: 50px;
+ }
+ .bottom a{
+   text-decoration: none;
+   color : white;
+ }
+.inner{
+  height: 100%;
+  width : 100%;
+  border: 1px solid skyblue;
+  background: black;
+  opacity: 50%;
+  border-top-right-radius: 30%;
+  border-top-left-radius: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.similar{
+   height: 100%;
+   width: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.similar a{
+  color : whitesmoke;
+}
+.middle{
+  width: 100vw;
+  /* border: 1px solid black; */
+  height : calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.middle .vip{
+  color : white;
+  line-height: 1.2rem;
+   padding : 0 10px;
+   width: 100%;
+   height: auto;
+   padding-bottom: 20px;
+   /* border: 1px solid black; */
+ }
+.tle{
+  width: 100%;
+  height:  auto;
+  text-align: center;
+  padding: 8px 0;
+  text-decoration: underline;
+  letter-spacing: 1.5px;
+  /* background: red; */
+}
+
+.middle ul{
+  letter-spacing: 1.2px;
+  font-size: 1.1rem;
+  padding : 0 30px;
+  color  : black;
+}
+.middle ul li{
+  font-weight: 500;
+}
+
+.vip p{
+  letter-spacing: 2px;
+  color : rgba(00 , 90% , 180% , 100);
+  font-size: 1.3rem;
+  font-weight : 500;
+  /* line-height: 1.3rem; */
+}
+.tle p{
+  font-size: 1.4rem;
+  font-weight: 900;
+}
