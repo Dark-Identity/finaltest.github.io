@@ -124,7 +124,7 @@ main{
   .card{
     display: flex;
     max-width: 50vw;
-    background: red;
+    
     justify-content: space-between;
   }
   .data{
